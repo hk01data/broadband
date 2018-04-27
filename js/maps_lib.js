@@ -28,7 +28,7 @@ var MapsLib = {
   //NOTE: numeric IDs will be depricated soon
   fusionTableId:      "107nwocFQYif2iSOJUR0tL4S64F23eRtNonUewY3k", //Point data layer
   
-  polygon1TableID:    "188vFA0PR_PV8oGfe5Uh4tu7qpCa35TlsDo2i9EUU", //Outline map layer of CT town boundaries
+  polygon1TableID:    "1V7biLQzaN_Zjpq2MbOYoewQiXJqFP9-wa9-ed6za", //Outline map layer of CT town boundaries
   polygon2TableID:    "107nwocFQYif2iSOJUR0tL4S64F23eRtNonUewY3k", //Thematic map layer of selected CT school districts
 
   //*MODIFY Fusion Tables Requirement* API key. found at https://code.google.com/apis/console/
@@ -317,10 +317,10 @@ var MapsLib = {
     var name = MapsLib.recordNamePlural;
     if (numRows == 1)
     name = MapsLib.recordName;
-    $( "#result_box" ).fadeOut(function() {
-        $( "#result_count" ).html(MapsLib.addCommas(numRows) + " " + name + " found");
-      });
-    $( "#result_box" ).fadeIn();
+    // $( "#result_box" ).fadeOut(function() {
+    //     $( "#result_count" ).html(MapsLib.addCommas(numRows) + " " + name + " found");
+    //   });
+    // $( "#result_box" ).fadeIn();
   },
 
   getList: function(whereClause) {
