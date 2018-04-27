@@ -41,13 +41,13 @@ var MapsLib = {
   //if your Fusion Table has two-column lat/lng data, see https://support.google.com/fusiontables/answer/175922
   locationColumn:     "lat",
 
-  map_centroid:       new google.maps.LatLng(22.374933, 114.107540), //center that your map defaults to
-  locationScope:      "hong kong",      //geographical area appended to all address searches
+  map_centroid:       new google.maps.LatLng(22.388161, 114.164377), //center that your map defaults to
+  locationScope:      "香港",      //geographical area appended to all address searches
   recordName:         "result",       //for showing number of results
   recordNamePlural:   "results",
 
-  searchRadius:       805,            //in meters ~ 1/2 mile
-  defaultZoom:        12,             //zoom level when map is loaded (bigger is more zoomed in)
+  searchRadius:       600,            //in meters ~ 1/2 mile
+  defaultZoom:        11,             //zoom level when map is loaded (bigger is more zoomed in)
   addrMarkerImage:    'images/blue-pushpin.png',
   currentPinpoint:    null,
 
@@ -58,12 +58,13 @@ var MapsLib = {
     var myOptions = {
       zoom: MapsLib.defaultZoom,
       center: MapsLib.map_centroid,
+      gestureHandling: 'greedy',
       mapTypeId: google.maps.MapTypeId.ROADMAP,
       styles: [
         {
           stylers: [
-            { saturation: -100 }, // MODIFY Saturation and Lightness if needed
-            { lightness: 40 }     // Current values make thematic polygon shading stand out over base map
+            { saturation: -50 }, // MODIFY Saturation and Lightness if needed { saturation: -100 },
+            { lightness: 40 }     // Current values make thematic polygon shading stand out over base map { lightness: 40 } 
           ]
         }
       ]
