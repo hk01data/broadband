@@ -30,30 +30,8 @@
     <![endif]-->
   </head>
   <body>
-<!--     <div class='navbar navbar-default navbar-static-top'>
-      <div class='container'>
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-
-          <a class='navbar-brand' href='index.html'>Search Map Template v1.3 fusion-point-polygon-list (toggle version)</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-
-            <li class='active'><a href="http://datavizforall.org">Learn more at DataVizForAll.org</a></li>
-          </ul>
-        </div>
-      </div>
-    </div> -->
     <div id='bigcontainer'>
-<!--       <div class='row'>
-        <div class='col-md-4'> -->
         <!--MODIFY or erase any descriptive text or links below between the paragraph <p> tags -->
-<!--           <p>View <a href="http://github.com/jackdougherty/fusion-point-polygon-list">code on GitHub</a>. Based on <a href='http://derekeder.com/searchable_map_template/'>Searchable Map Template v1.3</a> by <a href='http://derekeder.com'>Derek Eder</a> with <a href='http://support.google.com/fusiontables/answer/2571232?hl=en&ref_topic=1652595'>Google Fusion Tables</a></p> -->
           <div class='well'>
             <div class="input-group" id='search_address_group'>
               <input class='form-control form-control-sm' id='search_address' placeholder='請輸入地址' type='text' />    
@@ -69,21 +47,6 @@
                 </button> -->
               </div>
             </div>
-
-<!--MODIFY search options. Values are metric: 1610 meters = 1 mile
-            <p>
-              <label>
-                within
-                <select id='search_radius'>
-
-                  <option value='400'>2 blocks</option>
-                  <option value='805'>1/2 mile</option>
-                  <option value='1610'>1 mile</option>
-                  <option value='3220'>2 miles</option>
-                </select>
-              </label>
-            </p>
- -->
             <!--MODIFY Point layer legend heading, labels (such as Interdistrict), and colors (green, blue, yellow, red, purple) to match your data -->
             <div class='clearfix'></div>
             <div class="row">
@@ -135,7 +98,7 @@
           <div id='map_canvas'></div>
           <div id='listview' style="display:none;"></div>
           <!--MODIFY link to publicly display your Google Fusion Tables data table, source, and text-->
-          <div class='attribution'>Visualization based on <a href='http://derekeder.com/searchable_map_template/' target='_blank'>Searchable Map Template</a> by <a href='http://derekeder.com' target='_blank'>Derek Eder</a></div>
+          <div id='attribution'>Visualization based on <a href='http://derekeder.com/searchable_map_template/' target='_blank'>Searchable Map Template</a> by <a href='http://derekeder.com' target='_blank'>Derek Eder</a></div>
         </div>
       </div>
     </div>

@@ -4,8 +4,8 @@
 #bigcontainer {
   width: 100%; 
   height: 100%;
-  position: absolute; top: 0; left: 0;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 a { color: #4B58A6; }
@@ -13,11 +13,6 @@ a:hover { color: #4B58A6; }
 
 
 .well {
-  position: absolute;
-  top:0px;
-  left:0px;
-  height:70px;
-  width:100%;
   padding: 0;
   margin: 0px;
   background-color: #f5f5f5;
@@ -27,24 +22,16 @@ a:hover { color: #4B58A6; }
 }
 
 #map_canvas {
-  position: absolute;
-  width: 100%;
-  top:70px;
-  bottom: 0px;
+  flex: 1;
 }
 
 #map_canvas img {
   max-width: none;
 }
 
-.attribution {
-  position: absolute;
-  display: block;
-  bottom: 0px;
-  height: 15px;
+#attribution {
   font-size: 0.5rem;
   text-align: right;
-  overflow: hidden;
 }
 
 /* remove markers in front of unordered list */
