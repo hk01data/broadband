@@ -6,20 +6,43 @@
   height: 100%;
   position: absolute; top: 0; left: 0;
   margin: 0 auto;
+  overflow: hidden:
 }
 
 a { color: #4B58A6; }
 a:hover { color: #4B58A6; }
 
+
+.well {
+  position: absolute;
+  top:0px;
+  left:0px;
+  height:100px;
+  width:100%;
+  padding: 0;
+  margin: 0px;
+  background-color: #f5f5f5;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
 #map_canvas {
   top:100px;
   bottom: 10px;
   height: auto;
-  overflow:hidden;
 }
 
 #map_canvas img {
   max-width: none;
+}
+
+.attribution {
+  display: block;
+  right: 0;
+  height: 10px;
+  z-index: 1000;
+  font-size: 0.5rem;
+  text-align: right;
 }
 
 /* remove markers in front of unordered list */
@@ -47,25 +70,3 @@ ul.unstyled {list-style-type:none;}
 .filter-red { background-color: #FB6353; }
 
 canvas {-ms-touch-action: double-tap-zoom;}
-
-.well {
-  position: absolute;
-  top:0px;
-  left:0px;
-  height:100px;
-  width:100%;
-  padding: 0;
-  margin: 0px;
-  background-color: #f5f5f5;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-}
-
-.attribution {
-  display: block;
-  right: 0;
-  height: 10px;
-  z-index: 1000;
-  font-size: 0.5rem;
-  text-align: right;
-}
