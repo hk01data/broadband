@@ -69,22 +69,17 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
               </div>
             </div>
             <!--MODIFY Point layer legend heading, labels (such as Interdistrict), and colors (green, blue, yellow, red, purple) to match your data -->
-            <div class='clearfix'></div>
-
-
-
-<div class="btn-group">
-  <label class="btn btn-primary active">
-    <input type="checkbox" name="options" id="cbType1" autocomplete="off" checked> < 10M
-  </label>
-  <label class="btn btn-secondary active">
-    <input type="checkbox" name="options" id="cbType2" autocomplete="off" checked> 10-30M
-  </label>
-  <label class="btn btn-danger active">
-    <input type="checkbox" name="options" id="cbType3" autocomplete="off" checked> > 30M
-  </label>
-</div>
-
+            <div class="btn-group d-flex">
+              <label class="btn active filter-red w-100">
+                <input type="checkbox" name="options" id="cbType1" autocomplete="off" checked> < 10M
+              </label>
+              <label class="btn active filter-pink w-100">
+                <input type="checkbox" name="options" id="cbType2" autocomplete="off" checked> 10-30M
+              </label>
+              <label class="btn active filter-green w-100">
+                <input type="checkbox" name="options" id="cbType3" autocomplete="off" checked> > 30M
+              </label>
+            </div>
             
             <!--MODIFY Polygon layers legend heading, labels (such as Polygon layer 1) to match your data, and related variables in maps_lib.js file -->
               <!--Polygon layers-->
