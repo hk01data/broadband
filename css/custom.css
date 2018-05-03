@@ -16,7 +16,7 @@ a:hover { color: #4B58A6; }
   position: absolute;
   top:0px;
   left:0px;
-  height:80px;
+  height:100px;
   width:100%;
   padding: 0;
   margin: 0px;
@@ -28,7 +28,7 @@ a:hover { color: #4B58A6; }
 
 #map_canvas {
   position: absolute;
-  top:80px;
+  top:100px;
   bottom: 0px;
 }
 
