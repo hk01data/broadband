@@ -1,3 +1,12 @@
+    @import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+    #bigcontainer {
+      width: 100%; 
+      height: 100%;
+      position: absolute; top: 0; left: 0;
+      margin: 0 auto;
+    }
+
+
 a { color: #4B58A6; }
 a:hover { color: #4B58A6; }
 
