@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--MODIFY title that appears in web browser tab -->
+    <title>fusion-point-polygon-list</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.16/af-2.2.2/b-1.5.1/r-2.2.1/datatables.min.css"/>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.16/af-2.2.2/b-1.5.1/r-2.2.1/datatables.min.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="village.js"></script>
+    <style type="text/css">
+        @import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+        body {
+            font: 14px/16px 'Noto Sans TC', sans-serif;
+        }
+    </style>
+
+
+</head>
+<body>
+<table id="example" class="hover row-border compact" width="100%"></table>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#example').DataTable( {
+        responsive: true,
+        data: data,
+        columns: [
+            { title: "鄉村","width": "50%" },
+            { title: "地區","width": "15%" },
+            { title: "計劃涵蓋？" }
+        ],
+        lengthChange: false,
+        pagingType: "full",
+        language:{
+            "processing":   "處理中...",
+            "loadingRecords": "載入中...",
+            "lengthMenu":   "顯示 _MENU_ 項結果",
+            "zeroRecords":  "沒有符合的結果",
+            "info":         "顯示第 _START_ 至 _END_ 項結果，共 _TOTAL_ 項",
+            "infoEmpty":    "顯示第 0 至 0 項結果，共 0 項",
+            "infoFiltered": "(從 _MAX_ 項結果中過濾)",
+            "infoPostFix":  "",
+            "search":       "搜尋:",
+            "paginate": {
+                "first":    "第一頁",
+                "previous": "上一頁",
+                "next":     "下一頁",
+                "last":     "最後一頁"
+            },
+            "aria": {
+                "sortAscending":  ": 順序",
+                "sortDescending": ": 倒序"
+            }
+        }
+    } );
+} );
+</script>
+</body>
+</html>
+
+
