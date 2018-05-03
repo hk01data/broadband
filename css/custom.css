@@ -28,6 +28,7 @@ a:hover { color: #4B58A6; }
 
 #map_canvas {
   position: absolute;
+  width: 100%;
   top:100px;
   bottom: 0px;
 }
