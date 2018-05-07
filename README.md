@@ -1,6 +1,7 @@
 Broadband coverage in Hong Kong
 ========================
-In Carrie Lam's maiden Policy Address, the Chief Executive has proposed that "the Government takes the lead to provide telecommunications companies with financial incentives in the form of subsidies to encourage the extension of fibre-based network to villages in remote areas in Hong Kong. The plan will cost around HKD 7 million, and will cover about 300 villages currently without high-speed broadband network coverage and is expected to benefit nearly 170 000 villagers. However, the detail of the scheme arouses concerns of district councillors.
+
+In Carrie Lam's 2017 maiden Policy Address, the Chief Executive has proposed that the Government takes the lead to provide telecommunications operators with financial incentives in the form of subsidies to encourage the extension of fibre-based networks to remote village. The plan will cost around HKD 0.7 billion, and will cover about 300 villages currently without high-speed broadband network coverage and is expected to benefit nearly 170 000 villagers. However, the scheme would be Fiber To the Node (FTTN) instead of Fiber To the Buildling (FTTB), and the detail of the scheme arouses concerns from District Councillors.
 
 Here are the news articles:
 
