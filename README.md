@@ -1,39 +1,30 @@
-fusion-point-polygon-list
+Broadband coverage in Hong Kong
 ========================
+In Carrie Lam's maiden Policy Address, the Chief Executive has proposed that "the Government takes the lead to provide telecommunications companies with financial incentives in the form of subsidies to encourage the extension of fibre-based network to villages in remote areas in Hong Kong. The plan will cost around HKD 7 million, and will cover about 300 villages currently without high-speed broadband network coverage and is expected to benefit nearly 170 000 villagers. However, the detail of the scheme arouses concerns of district councillors.
+
+Here are the news articles:
+
+This [map](http://hk01data.github.io/broadband/) shows the coverage of broadband service of HKT and HKBN (updated 3rd May 2018)
+
 Searchable point and polygon layer map template, with sortable list results, using Google Maps and Fusion Tables
 
-Based on Derek Eder's Searchable Map Template v1.3 http://derekeder.com/searchable_map_template/
-
-Use this template if you wish to create a Search-and-Filter map that turns on/off at least 2 layers (points and polygons), displays results in a sortable list, and draws data from Google Fusion Tables. The default point map displays a textual legend (A, B, C), with option to switch to numeric (0-100) values. Also, thematic polygon layers may be turned on/off in the background.
-
-##Demos
-Toggle version: display map view OR sortable list view
-- http://jackdougherty.github.io/fusion-point-polygon-list/index.html
-
-Both version: display both map view and sortable list
-- http://jackdougherty.github.io/fusion-point-polygon-list/index_both.html
-
-##Create your own version
-
-See tutorial in Fusion Tables template section of *Data Visualization for All* book at http://DataVizForAll.org
-
-General steps:
-
-1) Use Google Fusion Tables to create your point layer (all types in one table), and set the feature styles (set ranges, colors, etc.) and info windows.
-
-2) Use Google Fusion Tables to create your polygon layers (each layer in its own table), and set feature styles (thematic shading, etc.) and info windows
-
-3) Make your own copy of this template: either Fork to your own GitHub account, or Clone in Desktop, or Download a ZIP compressed version to your desktop.
-
-4) Modify two files, following instructions in the code comments, to match your Google Fusion Tables:
-
-- index.html (to toggle between map and sortable list) or index_both.html (to display both at same time)
-- maps_lib.js (located inside the js folder)
-
-*TO DO* document steps in the display table results section of the code
-
-5) Host everything on the web (such as a GitHub repository gh-pages branch)
+Based on [Derek Eder's Searchable Map Template v1.3](http://derekeder.com/searchable_map_template/).
 
 
-##To Do
-Update template to Derek Eder's v1.4
+## Table
+The Searchable, sortable Data table shows the villages both covered or not covered in the scheme.
+Based on [DataTables JS]{https://datatables.net/}.
+
+
+## Source
+
+[Tai Po](http://www.districtcouncils.gov.hk/tp/doc/2016_2019/tc/dc_meetings_doc/14020/TPDC_2018_10.pdf)
+[Shatin](http://www.districtcouncils.gov.hk/st/doc/2016_2019/tc/committee_meetings_doc/DHC/13871/st_dhc_2018_011_tcannex.pdf)
+[Sai Kung](http://www.districtcouncils.gov.hk/sk/doc/2016_2019/tc/committee_meetings_doc/hehc/14314/SK_hehc_2018_029_TC.pdf)
+[North District](http://www.districtcouncils.gov.hk/north/doc/2016_2019/tc/committee_meetings_doc/dmweic/13734/n_dmweic_2018_014_ch_v2.pdf)
+Tsuen Wan [1](http://www.districtcouncils.gov.hk/tw/doc/2016_2019/tc/dc_meetings_doc/13960/TWDC_Paper_No_142_1718_Annex1.pdf) ,[2](http://www.districtcouncils.gov.hk/tw/doc/2016_2019/tc/dc_meetings_doc/13960/TWDC_Paper_No_142_1718_Annex2.pdf), [3](http://www.districtcouncils.gov.hk/tw/doc/2016_2019/tc/dc_meetings_doc/13960/TWDC_Paper_No_142_1718_Annex3.pdf)
+[Yuen Long](http://www.districtcouncils.gov.hk/yl/doc/2016_2019/tc/committee_meetings_doc/tp_dc/14167/tpdc_2018_003.pdf)
+[Tuen Mun](http://www.districtcouncils.gov.hk/tm/doc/2016_2019/tc/committee_meetings_doc/cihc/14077/cihc_2018_009.pdf)
+[Kwai Tsing 1](http://www.districtcouncils.gov.hk/kwt/doc/2016_2019/tc/committee_meetings_doc/DFMC/14145/11_D_2018_AnnexI.pdf)
+[Kwai Tsing 2](http://www.districtcouncils.gov.hk/kwt/doc/2016_2019/tc/committee_meetings_doc/DFMC/14145/11_D_2018_AnnexII.pdf)
+Island [1](http://www.districtcouncils.gov.hk/island/doc/2016_2019/tc/dc_meetings_doc/13577/IS_2018_27_A1_TC.pdf), [2](http://www.districtcouncils.gov.hk/island/doc/2016_2019/tc/dc_meetings_doc/13577/IS_2018_27_A2_TC.pdf), [3](http://www.districtcouncils.gov.hk/island/doc/2016_2019/tc/dc_meetings_doc/13577/IS_2018_27_A3_TC.pdf)
