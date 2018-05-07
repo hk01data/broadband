@@ -13,7 +13,7 @@ Based on [Derek Eder's Searchable Map Template v1.3](http://derekeder.com/search
 
 ## Table
 The Searchable, sortable Data table shows the villages both covered or not covered in the scheme.
-Based on [DataTables JS]{https://datatables.net/}.
+Based on [DataTables JS](https://datatables.net/).
 
 
 ## Source
