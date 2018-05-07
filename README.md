@@ -1,21 +1,20 @@
-Broadband coverage in Hong Kong
+Who are still suffering from slow internet speed in Hong Kong?
 ========================
 
 In Carrie Lam's 2017 maiden Policy Address, the Chief Executive has proposed that the Government takes the lead to provide telecommunications operators with financial incentives in the form of subsidies to encourage the extension of fibre-based networks to remote village. The plan will cost around HKD 0.7 billion, and will cover about 300 villages currently without high-speed broadband network coverage and is expected to benefit nearly 170 000 villagers. However, the scheme would be Fiber To the Node (FTTN) instead of Fiber To the Buildling (FTTB), and the detail of the scheme arouses concerns from District Councillors.
 
-Here are the news articles:
+## Articles
 
+## HK Broadband coverage
 This [map](http://hk01data.github.io/broadband/) shows the coverage of broadband service of HKT and HKBN (updated 3rd May 2018)
 
 Searchable point and polygon layer map template, with sortable list results, using Google Maps and Fusion Tables
 
 Based on [Derek Eder's Searchable Map Template v1.3](http://derekeder.com/searchable_map_template/).
 
-
 ## Table
 The Searchable, sortable Data table shows the villages both covered or not covered in the scheme.
 Based on [DataTables JS](https://datatables.net/).
-
 
 ## Source
 
