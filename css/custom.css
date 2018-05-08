@@ -48,7 +48,7 @@ ul.unstyled {list-style-type:none;}
           background-clip: padding-box; 
 }
 
-.filter-yellow { background-color: #FBF358; }
+.filter-yellow { background-color: #ffff99; }
 .filter-green { background-color: #99ff99; }
 .filter-blue { background-color: #5781FC; }
 .filter-purple { background-color: #7C54FB; }
