@@ -5,6 +5,7 @@ In Carrie Lam's 2017 maiden Policy Address, the Chief Executive has proposed tha
 
 ## Articles
 [【01周報】推動智慧城市乏智慧　偏遠鄉村7億公帑鋪光纖村口止步](https://www.hk01.com/articles/185892)
+
 [【01周報】長洲天價低速上網　居民開關注組成功爭取光纖入屋](https://www.hk01.com/articles/185903)
 
 ## HK Broadband coverage
